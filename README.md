@@ -54,12 +54,6 @@ While the source isn't publicly available by default, I'm committed to transpare
 
 -----
 
-## 🖼️ Screenshots
-
-*I'll be updating this section with new screenshots soon\!*
-
------
-
 ## ⚙️ Prerequisites
 
   * Windows Operating System (due to `psutil` for process searching and `win32api` for file version, though `win32api` can be made optional).
@@ -97,6 +91,9 @@ The tool has several tabs, each with different features:
   * **Actions (uses displayed Summoner ID/Riot ID from the last successful lookup):**
       * **Invite to Lobby Button:** Invites the looked-up summoner to your current lobby.
       * **Add Friend Button:** Sends a friend request to the looked-up summoner (uses their Riot ID).
+   ![image](https://github.com/user-attachments/assets/de03588c-3189-4a1e-82a0-39cc17d2a678)
+
+    
 
 -----
 
@@ -135,6 +132,8 @@ The tool has several tabs, each with different features:
   * **New: Mastery Score:**
       * **Entry Field:** Input a custom mastery score.
       * **Set Mastery Score Button:** Applies the custom mastery score.
+
+![image](https://github.com/user-attachments/assets/df7cc001-5563-4f9a-9a3e-6654d7af172a)
 
 -----
 
@@ -178,6 +177,9 @@ The tool has several tabs, each with different features:
   * **Ultimate Spellbook Force Summs:**
       * **Jungle Button:** Forces Smite + Flash/Ghost (Flash if available) for Ultimate Spellbook.
       * **Lane Button:** Forces Exhaust/Ignite + Flash/Ghost for Ultimate Spellbook.
+   ![image](https://github.com/user-attachments/assets/4a0b12dd-ee3f-43dd-8848-c66a1efd4c59)
+
+
 
 -----
 
@@ -204,6 +206,7 @@ The tool has several tabs, each with different features:
       * **Tabs:**
           * **Abilities:** Shows champion passive and abilities (Q, W, E, R) with icons, names, and descriptions from Data Dragon.
           * **Skins (Owned):** Shows splash art, name, and purchase date for skins you own for the selected champion (requires skins to be loaded from the "Skins" tab first).
+![image](https://github.com/user-attachments/assets/c98965ce-5323-46a9-86fc-ed5080b3a413)
 
 -----
 
@@ -241,6 +244,7 @@ The tool has several tabs, each with different features:
       * **Loot Type ComboBox:** Select the specific type of loot to disenchant (e.g., `Champion Shards`, `Skin Shards`, `Eternals`).
   * **New: Refund Last Purchase:**
       * **Refund Last Purchase (Store API) Button:** Attempts to refund the most recent refundable purchase from your store history through the League of Legends store API.
+![image](https://github.com/user-attachments/assets/be9bfc7e-149a-4e4b-83d4-d24a1c2555d2)
 
 -----
 
@@ -264,6 +268,7 @@ This tab is for advanced users or for troubleshooting, allowing direct interacti
       * **Arguments Textbox:** Enter arguments as a JSON array string (e.g., `["arg1", 123, {"key":"val"}]` or `[]` for no arguments).
       * **Invoke LCDS Button:** Sends the LCDS invoke request.
       * **Response Textbox:** Displays the response from the LCDS call.
+![image](https://github.com/user-attachments/assets/2e002de5-2aa1-417e-8666-12cac1968714)
 
 -----
 
@@ -274,6 +279,7 @@ This tab provides tool-specific configuration options.
   * **Auto-rename executable on launch Switch:** (Experimental, for .py scripts only) If enabled, the tool will attempt to rename its executable file to a random name upon startup. This can potentially help with some anti-cheat detections.
   * **League Path Entry:** Displays the detected League of Legends installation directory and allows you to manually adjust it if needed.
   * **Save League Path Button:** Saves the entered League of Legends installation path to your local configuration.
+![image](https://github.com/user-attachments/assets/39fdb01e-aecf-4b0f-9577-75563f6929ba)
 
 -----
 
