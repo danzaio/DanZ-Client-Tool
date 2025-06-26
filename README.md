@@ -1,8 +1,12 @@
 # DanZ Client Tool
 
-\<p align="center"\>
-  \<img src="[https://i.imgur.com/5z5zNNz.jpeg](https://i.imgur.com/5z5zNNz.jpeg)" alt="DanZ Client Tool Logo/Screenshot" width="200"/\>
-\</p\>
+<p align="center">
+
+  <img src="https://i.imgur.com/5z5zNNz.jpeg" alt="DanZ Client Tool Logo/Screenshot" width="200"/>
+
+</p>
+
+
 
 Hey folks,
 
